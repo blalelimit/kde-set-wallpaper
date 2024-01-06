@@ -1,8 +1,9 @@
 #!/usr/bin/bash
 
 # SETS WALLPAPER TO IMAGE OR SLIDESHOW
+# Default wallpaper path set to ~/.local/share/wallpapers
 mode="$1"
-path="$HOME/Customization/wallpapers"
+path="$HOME/.local/share/wallpapers"
 
 # SHOWS EXAMPLES
 if [[ ${#mode} -lt 2 ]]; then
@@ -24,6 +25,7 @@ case $mode in
 	;;
 
 	# SETS WALLPAPER PLUGIN TO "SLIDESHOW", ALSO TRIGGERS NEXT WALLPAPER
+    # Default interval set to 9000 seconds (2.5 hours)
 	"slideshow"|"ss"|"all")
 		echo "Wallpaper Slideshow was set"
 		kwargs="
