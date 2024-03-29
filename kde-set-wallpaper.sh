@@ -7,7 +7,7 @@ path="$HOME/.local/share/wallpapers"
 
 # SHOWS EXAMPLES
 if [[ ${#mode} -lt 2 ]]; then
-	printf "Input empty or too short\n\nExamples:\nwallp in\t- Shows Wallpaper Information\nwallp ss\t- sets Wallpaper Slideshow\nwallp arch\t- sets Wallpaper Image \"arch.png\"\nwallp rd\t- sets Random Wallpaper Image\nwallp wekde\t- sets Wallpaper Engine\n";
+	printf "Input empty or too short\n\nExamples:\nkde-set-wallpaper.sh in\t- Shows Wallpaper Information\nkde-set-wallpaper.sh ss\t- sets Wallpaper Slideshow\nkde-set-wallpaper.sh arch\t- sets Wallpaper Image \"arch.png\"\nkde-set-wallpaper.sh rd\t- sets Random Wallpaper Image\n";
 	exit 1
 fi
 
